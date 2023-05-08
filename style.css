@@ -3,16 +3,16 @@ body {
   background-color: beige;
 } 
 
-/* ÇÁ·ÎÇÊ ÀÌ¹ÌÁö */
+/* í”„ë¡œí•„ ì´ë¯¸ì§€ */
 .img {
   justify-content: center;
 }
 #porfile-img {
 width: 150px;
 height: 150px;
-border: 1px solid #2B3856;
-transform: scale(1); /* ÀÌ¹ÌÁö »çÀÌÁî °íÁ¤ */
-border-radius: 70%
+border: 1px solid blue;
+transform: scale(1); /* ì´ë¯¸ì§€ ì‚¬ì´ì¦ˆ ê³ ì • */
+border-radius: 30%
 } 
 
 .menu-bar {
@@ -32,14 +32,14 @@ border-radius: 70%
   display: flex;
   flex-direction: column;
 }
-/* ¸ñÂ÷ */
+/* ëª©ì°¨ */
 .index h3 {
-  color:ivory;
+  color:blue;
   opacity: 0.7;
   text-decoration: none;
   cursor: pointer;
 }
-/* ¸ñÂ÷ °¢ Ç×¸ñ ¹İÀÀÇü Ä¿¼­ */
+/* ëª©ì°¨ ê° í•­ëª© ë°˜ì‘í˜• ì»¤ì„œ */
 .index h3:hover {
   font-size: 1.1em;
   opacity: 1;
@@ -74,7 +74,7 @@ section {
   margin-top:10px;
   border: 3px;
   border-style: solid;
-  border-color:deeppink;
+  border-color:blue;
   border-image-outset: 10px;
   width: 150px;
   height: 150px;
@@ -84,17 +84,17 @@ section {
   margin-top:10px;
   border: 3px;
   border-style: solid;
-  border-color:deeppink;
+  border-color:blue;
   border-image-outset: 10px;
   width: 150px;
   height: 150px;
 }
-/* Ä¿¼­ ¿Ã¸± ½Ã ÀÌ¹ÌÁö Å©°Ô(¸ğµç ÀÌ¹ÌÁö ÆÄÀÏ¿¡ Àû¿ë) */
+/* ì»¤ì„œ ì˜¬ë¦´ ì‹œ ì´ë¯¸ì§€ í¬ê²Œ(ëª¨ë“  ì´ë¯¸ì§€ íŒŒì¼ì— ì ìš©) */
 img:hover {
    transform: none;
-    -webkit-transform: none; /* Å©·Ò */
-    -moz-transform: none; /* ÆÄÀÌ¾îÆø½º */
-    -o-transform: none; /* ¿ÀÆä¶ó */
+    -webkit-transform: none; /* í¬ë¡¬ */
+    -moz-transform: none; /* íŒŒì´ì–´í­ìŠ¤ */
+    -o-transform: none; /* ì˜¤í˜ë¼ */
     z-index: 1;
     align-items: center;
   
@@ -119,7 +119,7 @@ img:hover {
   margin-left: 120px;
   margin-top: 30px;
 }
-/* ÀÏÇÑ ±â°£ */
+/* ì¼í•œ ê¸°ê°„ */
 .year {
   font-family: 'Oswald', sans-serif;
   font-size: 17px;
@@ -136,10 +136,10 @@ img:hover {
 .whatilove-img img {
   width:150px;
   height: 150px;
-  border: 2px solid deeppink;
+  border: 2px solid blue;
   border-image-outset: 10px;
 }
-/* ÇÏ´Ü ÄÚ¸àÆ® */
+/* í•˜ë‹¨ ì½”ë©˜íŠ¸ */
 .interests .comment {
   font-size: 16px;
   font-style: italic;
