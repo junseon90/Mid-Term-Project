@@ -10,7 +10,7 @@ body {
 #porfile-img {
 width: 150px;
 height: 150px;
-border: 1px solid blue;
+border: 7px solid blue;
 transform: scale(1); /* 이미지 사이즈 고정 */
 border-radius: 30%
 } 
